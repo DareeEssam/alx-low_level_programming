@@ -12,7 +12,7 @@ int main(void)
 
 	sum = 0;
 	
-	srand(time(NULL));
+	srand(time(0));
 
 	for (i = 0; i < 100; i++)
 	{
