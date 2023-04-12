@@ -65,7 +65,7 @@ char **strtow(char *str)
 				x = 0;
 			}
 		}
-		else if (c++ == 0)
+		else if (x++ == 0)
 			start = i;
 	}
 
