@@ -5,6 +5,7 @@
  * *string_nconcat - concat s1, followed by the first n bytes of s2
  * @s1: first string
  * @s2: second string
+ * @n: number of bytes from s2 to concatenate to s1
  * Return: pointer shall point to a newly allocated space in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n)
